@@ -1,8 +1,9 @@
 import connectDB from "./db/index.js"
-import express from "express"
-import { Note } from "./db/note.models.js"
-const app = express()
+import { app } from "./app.js"
+
 const port = 5000
+
+
 
 connectDB().then(()=>{
     app.listen(port, ()=>{
@@ -12,12 +13,4 @@ connectDB().then(()=>{
     console.log('mongoDB connection failed')
 })
 
-app.get('/',async (req,res)=>{
-    try {
-        const data = await Note.find();
-        res.send(data)
-    } catch (e) {
-        console.log(e)
-    }
-})
 
