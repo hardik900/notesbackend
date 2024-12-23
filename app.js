@@ -22,5 +22,4 @@ app.use("/api/v1",courseRouter)
 app.use("/api",userRouter)
 
 
-
 export {app}
