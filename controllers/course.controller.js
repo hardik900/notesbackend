@@ -1,13 +1,10 @@
 import { Note } from "../models/note.models.js";
+import { requestHandler } from "../utility/requestHandler.js";
 
-const getCourseData = (async (req, res) => {
+const getCourseData = requestHandler(async (req, res) => {
     let { course } = req.params
-    try {
-        const data = await Note.find({ category: course });
-        res.send(data)
-    } catch (e) {
-        console.log(e)
-    }
+    const data = await Note.find({ category: course });
+    res.send(data)
 })
 
 export { getCourseData }
