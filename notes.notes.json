@@ -1,0 +1,904 @@
+[{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1f9"
+  },
+  "element": "CREATE DATABASE AFTAB_SHOP",
+  "desc": "This query is used to create a database.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c20c"
+  },
+  "element": "blockquote",
+  "desc": "Defines a section that is a block of content from another source.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c20d"
+  },
+  "element": "body",
+  "desc": "Defines the document's body.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c21f"
+  },
+  "element": "dt",
+  "desc": "Defines a term/name in a description list.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c222"
+  },
+  "element": "fieldset",
+  "desc": "Groups related elements in a form.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c242"
+  },
+  "element": "noscript",
+  "desc": "Defines an alternative content for users that have disabled scripts in their browser.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c215"
+  },
+  "element": "colgroup",
+  "desc": "Defines a group of columns in a table.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c21b"
+  },
+  "element": "dfn",
+  "desc": "Defines a definition term.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c240"
+  },
+  "element": "meter",
+  "desc": "Defines a scalar measurement within a known range (like a disk usage gauge).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c245"
+  },
+  "element": "optgroup",
+  "desc": "Defines a group of related options in a dropdown list.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c24a"
+  },
+  "element": "picture",
+  "desc": "Defines a container for multiple `<source>` elements for responsive images.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c252"
+  },
+  "element": "h1, h2, h3, h4, h5, h6",
+  "desc": "Defines styles for all header elements, including font size, weight, and margin.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c262"
+  },
+  "element": "try...catch",
+  "desc": "A statement used for handling exceptions. 'try' contains code that might throw an error, while 'catch' handles the error.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c201"
+  },
+  "element": "a",
+  "desc": "Defines a hyperlink.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c216"
+  },
+  "element": "data",
+  "desc": "Links a piece of content with a machine-readable translation.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c223"
+  },
+  "element": "figcaption",
+  "desc": "Defines a caption for a `<figure>` element.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c230"
+  },
+  "element": "hr",
+  "desc": "Defines a thematic break or horizontal rule.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c237"
+  },
+  "element": "kbd",
+  "desc": "Defines keyboard input.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c258"
+  },
+  "element": "table",
+  "desc": "Styles tables, including borders, spacing, and alignment of table cells.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c20b"
+  },
+  "element": "bdo",
+  "desc": "Overrides the current text direction.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c211"
+  },
+  "element": "caption",
+  "desc": "Defines a table caption.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c213"
+  },
+  "element": "code",
+  "desc": "Defines a piece of computer code.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c21a"
+  },
+  "element": "details",
+  "desc": "Defines additional details that the user can view or hide.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c21c"
+  },
+  "element": "dialog",
+  "desc": "Defines a dialog box or window.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c220"
+  },
+  "element": "em",
+  "desc": "Defines emphasized text.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c225"
+  },
+  "element": "footer",
+  "desc": "Defines a footer for a document or section.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c235"
+  },
+  "element": "input",
+  "desc": "Defines an input control.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c23a"
+  },
+  "element": "li",
+  "desc": "Defines a list item.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c23b"
+  },
+  "element": "link",
+  "desc": "Defines the relationship between a document and an external resource (most used to link to stylesheets).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c23c"
+  },
+  "element": "main",
+  "desc": "Defines the main content of a document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c25a"
+  },
+  "element": "input",
+  "desc": "Defines the appearance of input fields within forms, including type-specific styles.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c25e"
+  },
+  "element": "function",
+  "desc": "Defines a function. Functions can be declared in various ways, including function declarations and function expressions.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c204"
+  },
+  "element": "area",
+  "desc": "Defines a clickable area within an image map.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c208"
+  },
+  "element": "b",
+  "desc": "Defines bold text.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c212"
+  },
+  "element": "cite",
+  "desc": "Defines the title of a work.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c214"
+  },
+  "element": "col",
+  "desc": "Defines a column in a table.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c227"
+  },
+  "element": "h1",
+  "desc": "Defines HTML headings (h1 to h6).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c244"
+  },
+  "element": "ol",
+  "desc": "Defines an ordered list.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c256"
+  },
+  "element": "img",
+  "desc": "Specifies how images should be displayed, including width, height, and borders.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1ff"
+  },
+  "element": "SELECT name FROM CUSTOMER",
+  "desc": "This query is used to show all the names from the given table.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c22a"
+  },
+  "element": "h4",
+  "desc": "Defines HTML headings (h1 to h6).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c231"
+  },
+  "element": "html",
+  "desc": "Defines the root of an HTML document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c243"
+  },
+  "element": "object",
+  "desc": "Defines an embedded object.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c24e"
+  },
+  "element": "rp",
+  "desc": "Defines what to show in browsers that do not support ruby annotations.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c251"
+  },
+  "element": "body",
+  "desc": "Sets the default font and background color for the entire page.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c253"
+  },
+  "element": "p",
+  "desc": "Controls the appearance of paragraphs, including line height, margin, and font size.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c260"
+  },
+  "element": "for loop",
+  "desc": "A control flow statement used for iteration, executing a block of code a specific number of times.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1fb"
+  },
+  "element": "DESC CUSTOMER",
+  "desc": "This query is used to show the schema of the table.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c202"
+  },
+  "element": "abbr",
+  "desc": "Defines an abbreviation or acronym.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c21d"
+  },
+  "element": "div",
+  "desc": "Defines a division or section in a document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c228"
+  },
+  "element": "h2",
+  "desc": "Defines HTML headings (h1 to h6).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c261"
+  },
+  "element": "while loop",
+  "desc": "A control flow statement that executes a block of code as long as a specified condition is true.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1fc"
+  },
+  "element": "INSERT INTO CUSTOMER VALUES(2, 'Samuel', 'Thane West')",
+  "desc": "This query is used to insert a single entry (row) into the table.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c206"
+  },
+  "element": "aside",
+  "desc": "Defines content aside from the content it is placed in (like a sidebar).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c209"
+  },
+  "element": "base",
+  "desc": "Defines a base URL for relative URLs in a document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c233"
+  },
+  "element": "iframe",
+  "desc": "Defines an inline frame.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c23d"
+  },
+  "element": "map",
+  "desc": "Defines an image map.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c248"
+  },
+  "element": "p",
+  "desc": "Defines a paragraph.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c250"
+  },
+  "element": "ruby",
+  "desc": "Defines a ruby annotation (used in East Asian typography).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c25f"
+  },
+  "element": "if...else",
+  "desc": "A control flow statement used to execute code based on a condition. 'else' provides an alternative block if the condition is false.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c263"
+  },
+  "element": "async/await",
+  "desc": "Syntax for working with asynchronous code. 'async' declares a function as asynchronous, and 'await' pauses execution until a promise is resolved.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1f6"
+  },
+  "element": "SHOW DATABASES",
+  "desc": "This query is used to show the number of databases.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1fe"
+  },
+  "element": "INSERT INTO CUSTOMER(id, name) VALUES(5, 'Tanu')",
+  "desc": "This query is used to insert values into specific columns (attributes) of the table.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c20f"
+  },
+  "element": "button",
+  "desc": "Defines a clickable button.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c22b"
+  },
+  "element": "h5",
+  "desc": "Defines HTML headings (h1 to h6).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c265"
+  },
+  "element": "class",
+  "desc": "Defines a class for creating objects with shared properties and methods. Introduced in ES6, it’s syntactic sugar over JavaScript's existing prototype-based inheritance.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1fa"
+  },
+  "element": "CREATE TABLE CUSTOMER(id INT, name VARCHAR(255), address VARCHAR(255))",
+  "desc": "This query is used to create a table with columns (attributes). Note: We can't create a table without defining column names.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c210"
+  },
+  "element": "canvas",
+  "desc": "Defines a container for graphics.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c22e"
+  },
+  "element": "header",
+  "desc": "Defines a header for a document or section.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c23e"
+  },
+  "element": "mark",
+  "desc": "Defines text that has been highlighted or marked.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c23f"
+  },
+  "element": "meta",
+  "desc": "Defines metadata about an HTML document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c254"
+  },
+  "element": "a",
+  "desc": "Styles anchor links, including color, text decoration, and hover effects.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1f8"
+  },
+  "element": "USE AFTAB_SHOP",
+  "desc": "This query is used to select the database to which you want to work.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c20e"
+  },
+  "element": "br",
+  "desc": "Defines a line break.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c217"
+  },
+  "element": "datalist",
+  "desc": "Defines a list of pre-defined options for an `<input>` element.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c218"
+  },
+  "element": "dd",
+  "desc": "Defines a description value in a description list.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c236"
+  },
+  "element": "ins",
+  "desc": "Defines text that has been inserted into a document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c247"
+  },
+  "element": "output",
+  "desc": "Defines the result of a calculation.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c259"
+  },
+  "element": "form",
+  "desc": "Styles forms, including input fields, labels, and button appearances.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c264"
+  },
+  "element": "fetch",
+  "desc": "A function used to make network requests and handle responses. It's a modern alternative to XMLHttpRequest.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c205"
+  },
+  "element": "article",
+  "desc": "Defines an independent, self-contained piece of content.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c219"
+  },
+  "element": "del",
+  "desc": "Defines text that has been deleted from a document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c226"
+  },
+  "element": "form",
+  "desc": "Defines an HTML form for user input.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c22c"
+  },
+  "element": "h6",
+  "desc": "Defines HTML headings (h1 to h6).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c234"
+  },
+  "element": "img",
+  "desc": "Defines an image.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c238"
+  },
+  "element": "label",
+  "desc": "Defines a label for an `<input>` element.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c249"
+  },
+  "element": "param",
+  "desc": "Defines a parameter for an object.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c24b"
+  },
+  "element": "pre",
+  "desc": "Defines preformatted text.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c24c"
+  },
+  "element": "progress",
+  "desc": "Defines the progress of a task.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c24f"
+  },
+  "element": "rt",
+  "desc": "Defines an explanation or pronunciation of characters (used in East Asian typography).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c255"
+  },
+  "element": "div",
+  "desc": "A generic container for grouping and styling blocks of content.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c207"
+  },
+  "element": "audio",
+  "desc": "Defines sound content.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c232"
+  },
+  "element": "i",
+  "desc": "Defines italic text.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c239"
+  },
+  "element": "legend",
+  "desc": "Defines a caption for a `<fieldset>` element.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c241"
+  },
+  "element": "nav",
+  "desc": "Defines navigation links.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c246"
+  },
+  "element": "option",
+  "desc": "Defines an option in a dropdown list.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1f7"
+  },
+  "element": "SHOW TABLES",
+  "desc": "This query is used to show the number of tables.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c203"
+  },
+  "element": "address",
+  "desc": "Defines contact information for the author/owner of a document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c257"
+  },
+  "element": "ul, ol",
+  "desc": "Styles unordered and ordered lists, including list-style type and padding.",
+  "category": "css"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c25b"
+  },
+  "element": "var",
+  "desc": "Declares a variable that can be re-assigned. It's function-scoped and is used to store data.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c266"
+  },
+  "element": "arrow functions",
+  "desc": "A shorter syntax for writing functions. They do not have their own 'this', 'arguments', or 'super' context.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c200"
+  },
+  "element": "SELECT * FROM CUSTOMER",
+  "desc": "This query is used to show all the rows from the given table.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c20a"
+  },
+  "element": "bdi",
+  "desc": "Isolates a part of text that might be formatted in a different direction from other text outside it.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c21e"
+  },
+  "element": "dl",
+  "desc": "Defines a description list.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c221"
+  },
+  "element": "embed",
+  "desc": "Defines a container for an external application or interactive content.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c22d"
+  },
+  "element": "head",
+  "desc": "Defines the head section of a document.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c24d"
+  },
+  "element": "q",
+  "desc": "Defines a short quotation.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c25c"
+  },
+  "element": "let",
+  "desc": "Declares a block-scoped variable that can be re-assigned. It's preferred over 'var' for better scope management.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c25d"
+  },
+  "element": "const",
+  "desc": "Declares a block-scoped variable that cannot be re-assigned after its initial assignment. It is used for constants.",
+  "category": "javascript"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c1fd"
+  },
+  "element": "INSERT INTO CUSTOMER VALUES(2, 'Samuel', 'Thane West'), (3, 'Anderson', 'Thane East'), (4, 'Roy', 'Airoli')",
+  "desc": "This query is used to insert multiple entries (rows) into the table. For each insertion in a row, we have to start with an open parenthesis and close it, separated by commas.",
+  "category": "sql"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c224"
+  },
+  "element": "figure",
+  "desc": "Defines self-contained content, like images, illustrations, diagrams, or code snippets.",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c229"
+  },
+  "element": "h3",
+  "desc": "Defines HTML headings (h1 to h6).",
+  "category": "html"
+},
+{
+  "_id": {
+    "$oid": "675f2260db012b259bd2c22f"
+  },
+  "element": "hgroup",
+  "desc": "Defines a group of headings.",
+  "category": "html"
+}]

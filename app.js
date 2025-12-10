@@ -12,11 +12,16 @@ app.use(express.static("public"))  // images and favicon icon are stored in publ
 
 import userRouter from "./routes/user.routes.js"
 import courseRouter from "./routes/course.routes.js"
+// import categoryRouter from "./routes/category.routes.js"
+import categoryRouter from "./routes/category.routes.js"
+import addNotesRouter from "./routes/addNotes.route.js"
 
 
 
 // user routes
 app.use("/api",userRouter)
 app.use("/api/v1",courseRouter)
+app.use("/api/v",categoryRouter)
+app.use("/api/addNotes",addNotesRouter)
 
 export {app}

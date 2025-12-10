@@ -1,6 +1,6 @@
 
 import { requestHandler } from "../utility/requestHandler.js";
-
+import { User } from "../models/user.models.js";
 
 
 // const registerUser = (async (req, res, next) => {
@@ -17,7 +17,10 @@ import { requestHandler } from "../utility/requestHandler.js";
 
 
 const registerUser = requestHandler( async (req, res) => {
-    let {firstName, lastName, number, email, password, Cpassword} = req.body;
+    let {firstName, lastName, number, email, password, Cpassword} = await req.body;
+    let registerData = await req.body;
+    console.log(registerData,"registerData")
+    console.log(firstName,"firstName")
 
      // get user details from frontend
     // validation - not empty
@@ -35,12 +38,35 @@ const registerUser = requestHandler( async (req, res) => {
         console.log("some values are empty")
     }
 
-    if(!(password === Cpassword)){
+    if(!(password == Cpassword)){
         res.send("password and Cpassword are not same")
     }
 
+    const existedUser = await User.findOne({email})
 
-    return res.send("Done");  
+    if(existedUser){
+        return res.send("user with this email already exists")
+    }
+
+    const checkInsertData = await User.create(
+        {
+            firstName: firstName,
+            lastName: lastName,
+            number: Number(number),  
+            email: email, 
+            password: password 
+        });
+
+    if(!(checkInsertData)){
+       return res.send("error while inserting data") 
+    }
+
+    const createdUser = await User.findById(checkInsertData._id).select(
+        "-password -refreshToken"
+    )
+
+
+    return res.send(createdUser,201,"done");  
 })
 
 

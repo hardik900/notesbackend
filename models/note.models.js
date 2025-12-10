@@ -2,7 +2,7 @@ import mongoose,{Schema} from "mongoose";
 
 const notesSchema = new Schema(
 {
-    element: {
+    query: {
         type: String,
         required: true
     },
