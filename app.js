@@ -16,7 +16,7 @@ import courseRouter from "./routes/course.routes.js"
 import categoryRouter from "./routes/category.routes.js"
 import addNotesRouter from "./routes/addNotes.route.js"
 
-
+// 
 
 // user routes
 app.use("/api",userRouter)
