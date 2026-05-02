@@ -10,6 +10,10 @@ app.use(express.urlencoded({ extended:true }));
 app.use(express.static("public"))  // images and favicon icon are stored in public folder
 // app.use(cookieParser()) //we can perform crud operation on cookie data, we can directly store cookie from server to client machine
 
+app.get((req,res)=>{
+  return res.json({message: "This is the health route"})
+})
+
 import userRouter from "./routes/user.routes.js"
 import courseRouter from "./routes/course.routes.js"
 // import categoryRouter from "./routes/category.routes.js"
